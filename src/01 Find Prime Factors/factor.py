@@ -1,6 +1,7 @@
 def get_prime_factors(number):
     factors = []
     divisor = 2
+    #Test
     while divisor <= number:
         if number % divisor == 0:
             factors.append(divisor)
